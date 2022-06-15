@@ -1,0 +1,53 @@
+{
+	"compilerOptions": {
+		"allowJs": false,
+		"target": "es5",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"newLine": "LF",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"noEmitHelpers": true,
+		"importHelpers": true,
+		"strictNullChecks": false,
+		"declaration": false,
+		"noImplicitAny": true,
+		"removeComments": false,
+		"jsx": "react",
+		"skipLibCheck": true,
+		"outDir": "lib",
+		"lib": [
+			"es6",
+			"es7",
+			"es2015",
+			"es2015.promise",
+			"es2015.iterable",
+			"es2016",
+			"es2017",
+			"es2017.object",
+			"scripthost",
+			"dom"
+		],
+		"baseUrl": ".",
+		"paths": {
+			"src": ["src"],
+			"@constants*": ["src/constants*"],
+			"@components*": ["src/application/components*"],
+			"@containers*": ["src/application/containers*"],
+			"@hoc*": ["src/application/hoc*"],
+			"@pages*": ["src/application/pages*"],
+			"@helpers*": ["src/helpers*"],
+			"@interfaces*": ["src/interfaces*"],
+			"@stores*": ["src/stores*"],
+			"@services*": ["src/services*"],
+			"@configs*": ["./configs*"],
+			"@translation*": ["src/translation*"],
+			"@theme*": ["src/theme*"]
+		}
+	},
+	"compileOnSave": false,
+	"buildOnSave": false,
+	"include": ["src/**/*"]
+}
